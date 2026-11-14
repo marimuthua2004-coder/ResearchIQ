@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchIQ</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-family:'Segoe UI',sans-serif;
+            background:linear-gradient(135deg,#012178,#1e293b,#2563eb);
+            overflow:hidden;
+        }
+
+        .container-box{
+            background:rgba(255,255,255,0.1);
+            backdrop-filter:blur(15px);
+            border-radius:25px;
+            padding:50px;
+            text-align:center;
+            width:90%;
+            max-width:850px;
+            color:white;
+            box-shadow:0 8px 30px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            font-size:3rem;
+            font-weight:bold;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:1.2rem;
+            color:#e2e8f0;
+            margin-bottom:35px;
+        }
+
+        .btn-custom{
+            padding:12px 35px;
+            font-size:18px;
+            border-radius:50px;
+            margin:10px;
+            transition:0.3s;
+        }
+
+        .btn-custom:hover{
+            transform:translateY(-5px);
+        }
+
+        .features{
+            margin-top:40px;
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:20px;
+        }
+
+        .card-feature{
+            background:rgba(255,255,255,0.15);
+            padding:18px;
+            border-radius:15px;
+            width:180px;
+            transition:0.3s;
+        }
+
+        .card-feature:hover{
+            transform:scale(1.05);
+        }
+
+        .footer{
+            margin-top:30px;
+            color:#cbd5e1;
+            font-size:14px;
+        }
+
+        @media(max-width:768px){
+
+            h1{
+                font-size:2rem;
+            }
+
+            p{
+                font-size:1rem;
+            }
+
+            .container-box{
+                padding:30px;
+            }
+
+            .card-feature{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-box">
+
+    <h1>📄 ResearchIQ</h1>
+
+    <p>
+        Upload research papers, generate intelligent summaries,
+        extract important keywords, interact with AI and download analysis reports instantly.
+    </p>
+
+    <a href="/login" class="btn btn-primary btn-custom">
+        Login
+    </a>
+
+    <a href="/register" class="btn btn-success btn-custom">
+        Register
+    </a>
+
+    <div class="features">
+
+        <div class="card-feature">
+            🤖 <br><br>
+            AI Powered Summary
+        </div>
+
+        <div class="card-feature">
+            🔍 <br><br>
+            Keyword Extraction
+        </div>
+
+        <div class="card-feature">
+            💬 <br><br>
+            Research Paper Chat
+        </div>
+
+        <div class="card-feature">
+            📥 <br><br>
+            Download PDF Report
+        </div>
+
+    </div>
+
+    <div class="footer">
+        MCA Final Year Project | ResearchIQ
+    </div>
+
+</div>
+
+</body>
+</html>
