@@ -1,0 +1,7 @@
+Flask
+reportlab
+python-dotenv
+Werkzeug
+PyPDF2
+google-genai
+tenacity
