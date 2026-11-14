@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background: linear-gradient(135deg,#667eea,#764ba2);
+            min-height:100vh;
+        }
+
+        .about-card{
+            background:white;
+            border-radius:20px;
+            padding:50px;
+            margin-top:40px;
+            margin-bottom:40px;
+            box-shadow:0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .page-title{
+            text-align:center;
+            color:white;
+            margin-top:30px;
+            font-weight:bold;
+            font-size:48px;
+        }
+
+        .section-title{
+            color:#4f46e5;
+            font-weight:bold;
+            margin-top:25px;
+            margin-bottom:15px;
+            font-size:30px;
+        }
+
+        footer{
+            color:white;
+            text-align:center;
+            padding-bottom:20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="/">
+            ResearchIQ
+        </a>
+
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/history">History</a>
+            <a class="nav-link active" href="/about">About</a>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1 class="page-title">
+        About The Project
+    </h1>
+
+    <div class="about-card">
+
+        <h3 class="section-title">
+            Project Overview
+        </h3>
+
+        <p>
+            The ResearchIQ is an intelligent web-based application designed to assist students, researchers, and academicians in analyzing research papers efficiently. The system enables users to upload research papers in PDF format, automatically extract textual content, generate concise summaries, identify significant keywords, and maintain a searchable analysis history. This application reduces the time required to review lengthy research documents and improves research productivity.
+        </p>
+
+        <hr>
+
+        <h3 class="section-title">
+            Problem Statement
+        </h3>
+
+        <p>
+            Researchers and students often spend considerable time reading and understanding large research papers. Identifying the core contribution, methodology, and key concepts manually can be time-consuming. The proposed system addresses this challenge by providing automated document analysis, enabling users to quickly understand the essential information contained within a research paper.
+        </p>
+
+        <hr>
+
+        <h3 class="section-title">
+            Project Objectives
+        </h3>
+
+        <ul>
+            <li>Develop a web-based platform for research paper analysis.</li>
+            <li>Extract textual content from uploaded PDF documents.</li>
+            <li>Generate concise summaries of research papers.</li>
+            <li>Identify and display important keywords.</li>
+            <li>Store analysis history using a database system.</li>
+            <li>Provide downloadable reports for future reference.</li>
+            <li>Improve the efficiency of academic research activities.</li>
+        </ul>
+
+        <hr>
+
+        <h3 class="section-title">
+            Technologies Used
+        </h3>
+
+        <table class="table table-bordered table-striped">
+
+            <tr>
+                <th>Technology</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>Core programming language used for application development</td>
+            </tr>
+
+            <tr>
+                <td>Flask</td>
+                <td>Lightweight web framework for backend development</td>
+            </tr>
+
+            <tr>
+                <td>PyPDF2</td>
+                <td>PDF text extraction library</td>
+            </tr>
+
+            <tr>
+                <td>SQLite</td>
+                <td>Database for storing analysis history</td>
+            </tr>
+
+            <tr>
+                <td>Bootstrap 5</td>
+                <td>Responsive user interface design</td>
+            </tr>
+
+            <tr>
+                <td>ReportLab</td>
+                <td>PDF report generation</td>
+            </tr>
+
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Frontend structure and styling</td>
+            </tr>
+
+        </table>
+
+        <hr>
+
+        <h3 class="section-title">
+            Key Features
+        </h3>
+
+        <ul>
+            <li>Research Paper Upload</li>
+            <li>PDF Text Extraction</li>
+            <li>Automatic Summary Generation</li>
+            <li>Keyword Extraction</li>
+            <li>Research History Management</li>
+            <li>Search Functionality</li>
+            <li>Record Deletion</li>
+            <li>PDF Report Download</li>
+            <li>User-Friendly Interface</li>
+        </ul>
+
+        <hr>
+
+        <h3 class="section-title">
+            System Workflow
+        </h3>
+
+        <pre>
+Upload PDF
+      ↓
+Extract Text
+      ↓
+Generate Summary
+      ↓
+Extract Keywords
+      ↓
+Store in Database
+      ↓
+Display Results
+      ↓
+Download Analysis Report
+        </pre>
+
+        <hr>
+
+        <h3 class="section-title">
+            Future Enhancements
+        </h3>
+
+        <ul>
+            <li>Integration of advanced NLP models for intelligent summarization.</li>
+            <li>Research paper classification based on domain.</li>
+            <li>User authentication and profile management.</li>
+            <li>Cloud-based document storage.</li>
+            <li>Visualization dashboards and analytics.</li>
+            <li>AI-powered recommendation of related research papers.</li>
+        </ul>
+
+        <hr>
+
+        <h3 class="section-title">
+            Academic Significance
+        </h3>
+
+        <p>
+            This project demonstrates the integration of Web Development, Database Management Systems, Document Processing, and Natural Language Processing concepts. It provides practical exposure to real-world software development methodologies and showcases how artificial intelligence techniques can be applied to academic research assistance systems.
+        </p>
+
+        <hr>
+
+        <h3 class="section-title">
+            Conclusion
+        </h3>
+
+        <p>
+            The  ResearchIQ  successfully automates the process of extracting and analyzing information from research papers. By generating summaries, identifying keywords, and maintaining historical records, the system enhances research efficiency and serves as a valuable academic tool for students, researchers, and educational institutions.
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        © 2026 AI ResearchIQ | MCA Project
+    </p>
+</footer>
+
+</body>
+</html>
